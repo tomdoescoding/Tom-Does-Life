@@ -1,0 +1,18 @@
+body {margin:0; font-family: monospace;}
+
+.categories {padding-left: 150px; padding-right: 150px; font-family: monospace}
+
+.title {text-align: center}
+.title h1 {background-color: black; color: white; padding: 20px; margin: 0}
+.title img {width:100%}
+
+.left {text-align: left; clear: right;}
+.left img {float: left; vertical-align: middle; margin-right: 20px; box-shadow: 5px 5px 5px grey;}
+.left h2 {display: inline; background-color: yellow; padding-left: 10px; padding-right: 10px; box-shadow: 5px 5px}
+
+
+.right {text-align: right; clear: left}
+.right img {float: right; vertical-align: middle; margin-left: 20px; box-shadow: -5px 5px 5px grey;}
+.right h2 {display: inline; background-color: yellow; padding-left: 10px; padding-right: 10px; box-shadow: -5px 5px}
+
+.footer {text-align: center; clear: both; background-color: black; color: white; margin-top: 200px; padding: 20px}
