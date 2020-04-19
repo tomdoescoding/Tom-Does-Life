@@ -2,10 +2,8 @@ body {
   margin: auto;
   font-family: monospace;
 }
-.categories {
-  padding-left: 150px;
-  padding-right: 150px;
-  font-family: monospace
+img {
+  display: block
 }
 .title {
   text-align: center
@@ -16,10 +14,43 @@ body {
   padding: 20px;
   margin: 0
 }
-.title img {
-  width: 100%
+.intro img {
+  max-width: 100%;
+  height: auto;
+}
+/* navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #383838;
+  overflow: hidden;
+}
+ li {
+  float: left;
+}
+ li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+ li a:hover {
+  background-color: yellow;
+  color: black;
+}
+.intro p {
+  text-align: center;
 }
 /* Content of categories */
+.categories {
+  padding-left: 150px;
+  padding-right: 150px;
+  font-family: monospace
+}
 .left {
   text-align: left;
   clear: right;
